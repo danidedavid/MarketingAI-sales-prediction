@@ -1,0 +1,39 @@
+{
+  "date_col": "year_month",
+  "target_col": "sales",
+  "grain_keys": [
+    "store",
+    "item"
+  ],
+  "features": [
+    "item",
+    "category",
+    "department",
+    "store",
+    "store_code",
+    "region",
+    "mean_price",
+    "_year",
+    "_month",
+    "_year_month",
+    "_time_index",
+    "cluster",
+    "year",
+    "month",
+    "quarter",
+    "month_sin",
+    "month_cos",
+    "lag1"
+  ],
+  "categoricals": [
+    "item",
+    "category",
+    "department",
+    "store",
+    "store_code",
+    "region",
+    "_year_month",
+    "cluster"
+  ],
+  "winner_model": "LightGBM"
+}

@@ -1,0 +1,15 @@
+{
+  "numeric_median": {
+    "mean_price": 4.248000144958496,
+    "_year": 2015.0,
+    "_month": 5.5,
+    "_time_index": 54.5,
+    "year": 2015.0,
+    "month": 5.5,
+    "quarter": 2.0,
+    "month_sin": 0.25,
+    "month_cos": 0.25,
+    "lag1": 15.0
+  },
+  "categorical_default": "missing"
+}
